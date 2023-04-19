@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheets.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="assets/css/mobile-styles.css">
+    <script src="assets/js/script.js"></script>
+    <title>Identificar Idade</title>
+</head>
+<body>
+    <div id="container-todo">
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+        <section>
+            <div>
+                <p>
+                    <h2>Ano de Nascimento:</h2><br>
+                    <input type="number" name="ano" id="iano" placeholder="Escreva o ano que nasceu">
+                </p>
+                <p>
+                    <h2>Sexo:</h2><br>
+                    <div id="itens-selecao">
+                        <input type="radio" name="radsex" id="iradsex1">
+                        <label for="iradsex1">Masculino</label><br>
+                        <input type="radio" name="radsex" id="iradsex2">
+                        <label for="iradsex2">Feminino</label>
+                    </div>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            </div>
+            <div id="res">
+                Preencha os dados acima para ver o resultado!
+            </div>
+        </section>
+    </div>     
+    <footer>
+        <p><i>@devlooppear</i></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(
+        rgb(248, 240, 178),
+        rgb(180, 153, 0)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+div#container-todo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ghostwhite;
+    max-width: 425px;
+    padding: 5px 25px 23px 25px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 47px 3px #00000040;
+    margin-top: 5%;
+}
+
+div#itens-selecao {
+    margin: 23px 10px 23px 1px;
+}
+
+div#container-todo header h1 {
+    text-align: center;
+}
+
+div#res {
+    text-align: center;
+}
+
+footer p {
+    color: rgb(97, 97, 97);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin: auto;
+}
+
+div#container-todo section h2 {
+    margin-bottom: 0;
+}
+
+div#itens-selecao input,label{
+    margin-bottom: 15px;
+}
+
+section input[type="button"] {
+    margin: 33px 10px 20px 10px;
+    background-color: #ffde18;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 0px 2px 6px 2px #00000059;
+    font-size: 0.9em;
+    color: #664e0a;
+    width: 388px;
+    height: 38px
+}
+
+input#iano {
+    display: block;
+    margin-top: 9px;
+    font-size: 0.9em;
+    height: 25px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+section img#foto {
+    border-radius: 22%;
+    width: 300px;
+    padding-top: 25px;
+}

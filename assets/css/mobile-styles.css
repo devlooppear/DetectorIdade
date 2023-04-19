@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    div#container-todo {
+        margin-top: 10%;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        padding: 15px;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+
+    div#itens-selecao input, div#itens-selecao label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input#iano {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    div#itens-selecao {
+        margin: 18px 10px 23px 1px;
+    }
+
+    section input[type="button"] {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 40px;
+        font-size: 1em;
+    }
+
+    div#container-todo header h1 {
+        font-size: 2em;
+    }
+
+    div#container-todo section br {
+        display: none;
+    }
+
+    div#container-todo section {
+        padding: 15px;
+    }
+
+    div#container-todo section h2 {
+        font-size: 1.5em;
+    }
+}
